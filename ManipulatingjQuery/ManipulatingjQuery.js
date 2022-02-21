@@ -15,11 +15,11 @@ $newbutton.click( function () {
 
 
 // OBJECTIVE 3
-let $div = $("#div");
-$div.hover(function() {
-    div.style.backgroundColor = "red";
+let $divOne = $("#divOne");
+$divOne.hover(function() {
+    divOne.style.backgroundColor = "red";
 }, function() {
-    div.style.backgroundColor = "black";
+    divOne.style.backgroundColor = "black";
 });
 
 
@@ -37,10 +37,10 @@ $p.click( function() {
 
 // OBJECTIVE 5
 let $newerbutton = $("#newerbutton");
-let $newdiv = $("#newdiv");
+let $SpanDiv = $("#SpanDiv");
 $newerbutton.click( function() {
     let $span = $("<span>Dalton</span>");
-    $($span).appendTo($newdiv);
+    $($span).appendTo($SpanDiv);
 });
 
 
