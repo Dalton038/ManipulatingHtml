@@ -4,8 +4,30 @@
     height: 200px;
     background-color: black;
     margin-top: 20px;
+position: relative; top: 30px;
 }
 
 #newestbutton {
     margin-top: 20px;
+    position: relative; top: 40px;
 }
+
+#button {
+position: absolute; bottom: 925px;
+}
+
+#newbutton {
+    position: relative; top: 40px;
+}
+
+#text-box {
+    position: relative; top: 40px;
+}
+
+#p {
+position: relative; top: 30px;
+}
+
+#newerbutton {
+position: relative; top: 40px;
+}  
