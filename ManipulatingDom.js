@@ -1,11 +1,7 @@
  //OBJECTIVE 1
 addEventListener("DOMContentLoaded", button);
 function button() {
-    let button = document.createElement("button");
-    let buttonText = document.createTextNode("Click Me!");
-    button.appendChild(buttonText);
-    document.body.appendChild(button);
-    addEventListener("click", click);
+  addEventListener("click", click);
     function click() {
         alert("nice message.")
     }
