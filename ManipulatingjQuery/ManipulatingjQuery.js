@@ -1,5 +1,5 @@
 // OBJECTIVE 1
-let $button = $("<button>Click Me!</button>");
+let $button = $("#button");
 $button.appendTo("body");
 $button.click(function () {
     alert("Nice Message.")
