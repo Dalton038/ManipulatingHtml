@@ -22,12 +22,12 @@ alert(message);
 
 
 //OBJECTIVE 3 
-let div = document.getElementById("div");
-div.addEventListener("mouseenter", function() {
-    div.style.backgroundColor = "red";
+let divOne = document.getElementById("divOne");
+divOne.addEventListener("mouseenter", function() {
+    divOne.style.backgroundColor = "red";
 })
-div.addEventListener("mouseleave", function() {
-    div.style.backgroundColor = "black";
+divOne.addEventListener("mouseleave", function() {
+    divOne.style.backgroundColor = "black";
 })
 
 
@@ -45,10 +45,10 @@ p.addEventListener("click", function() {
 
 //OBJECTIVE 5
 let newerbutton = document.getElementById("newerbutton");
-let newdiv = document.getElementById("div");
+let divSpan = document.getElementById("divSpan");
 newerbutton.addEventListener("click", function() {
     let span = document.createElement("span");
-    div.appendChild(span);
+    divSpan.appendChild(span);
     let text = document.createTextNode("Dalton");
     span.appendChild(text);
 })
